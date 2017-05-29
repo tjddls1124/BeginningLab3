@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="그림회전"
+        android:id="@+id/menu_rotate"
+        />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_hapari"
+            android:title="해파리" />
+        <item
+            android:id="@+id/menu_flower"
+            android:title="꽃" />
+        <item
+            android:id="@+id/menu_mountain"
+            android:title="해파리" />
+
+
+    </group>
+</menu>

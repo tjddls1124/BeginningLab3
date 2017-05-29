@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/textBig"
+            android:title="글자크기 크게" />
+        <item
+            android:id="@+id/textSmall"
+            android:title="글자크기 작게" />
+    </group>
+    <item
+        android:id="@+id/menuBlue"
+        android:title="배경색 파랑" />
+    <item
+        android:id="@+id/menuRed"
+        android:title="배경색 빨강" />
+
+    <item android:title="버튼 변경>>">
+        <menu>
+            <item
+                android:id="@+id/menu_BtScale"
+                android:title="버튼확대" />
+
+            <item
+                android:id="@+id/menu_BtRotate"
+                android:title="버튼회전" />
+        </menu>
+    </item>
+
+</menu>
